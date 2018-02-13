@@ -1,6 +1,7 @@
 package com.Jcase;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  * 类比C的scanf
@@ -22,6 +23,7 @@ public class Scaner {
             total += iArray[i];
         }
 
+        System.out.println("所有元素是:" + Arrays.toString(iArray));
         System.out.println("所有元素和是:" + total);
     }
 }
