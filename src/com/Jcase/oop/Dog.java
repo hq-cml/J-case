@@ -1,7 +1,7 @@
 package com.Jcase.oop;
 
 /**
- * OOP例子.
+ * 最简单的类定义与实例化例子.
  */
 public class Dog {
     //成员变量
