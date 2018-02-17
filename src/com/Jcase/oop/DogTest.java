@@ -3,7 +3,20 @@ package com.Jcase.oop;
 /**
  * 最简单的类定义与实例化例子.
  */
-public class Dog {
+public class DogTest {
+
+    public static void main(String[] args) {
+        //实例化
+        Dog dog1 = new Dog("Jack", 5);
+        dog1.bark();
+
+        //访问成员变量
+        System.out.println("The dog's age is " + dog1.age);
+    }
+
+}
+
+class Dog {
     //成员变量
     String name;
     int    age;
@@ -19,14 +32,4 @@ public class Dog {
     void bark() {
         System.out.println("My name is " + name );
     }
-
-    public static void main(String[] args) {
-        //实例化
-        Dog dog1 = new Dog("Jack", 5);
-        dog1.bark();
-
-        //访问成员变量
-        System.out.println("The dog's age is " + dog1.age);
-    }
-
 }

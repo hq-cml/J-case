@@ -3,8 +3,15 @@ package com.Jcase;
 /**
  * StringBuffer效率比String高出1000倍
  */
-public class TestStringBuffer {
+public class StringBufferTest {
     public static void main(String[] args) {
+        StringBuf sb = new StringBuf();
+        sb.Test();
+    }
+}
+
+class StringBuf {
+    public void Test() {
         StringBuffer str1 = new StringBuffer("Hello");
         str1.append(" world");
 

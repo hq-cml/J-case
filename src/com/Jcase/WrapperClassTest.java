@@ -6,8 +6,15 @@ package com.Jcase;
  *
  * 通常用于字符串和数据类型互转的时候很有用
  */
-public class WrapperClass {
+public class WrapperClassTest {
     public static void main(String[] args) {
+        WrapperClass wc = new WrapperClass();
+        wc.Test();
+    }
+}
+
+class WrapperClass {
+    public void Test() {
         int m = 500;
         Integer obj1 = new Integer(m);  // 手动装箱
         int n = obj1.intValue();        // 手动拆箱
@@ -38,6 +45,5 @@ public class WrapperClass {
 
         String s = Integer.toString(k);
         System.out.println("Str: " + s);
-
     }
 }

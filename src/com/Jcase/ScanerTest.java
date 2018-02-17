@@ -6,8 +6,15 @@ import java.util.Arrays;
 /**
  * 类比C的scanf
  */
-public class Scaner {
+public class ScanerTest {
     public static void main(String[] args) {
+        Scaner s = new Scaner();
+        s.Test();
+    }
+}
+
+class Scaner {
+    public void Test() {
         int[] iArray = new int[5];
         int len = iArray.length;
         int total = 0;
@@ -27,3 +34,4 @@ public class Scaner {
         System.out.println("所有元素和是:" + total);
     }
 }
+
