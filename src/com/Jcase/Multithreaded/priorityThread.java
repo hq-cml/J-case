@@ -2,6 +2,8 @@ package com.Jcase.Multithreaded;
 
 /**
  * 线程的优先级
+ * 根据我的实际测试,优先级设置和平台相关性比较大.
+ * 而且效果不明显.
  */
 public class priorityThread {
     public static void main(String args[]) {
