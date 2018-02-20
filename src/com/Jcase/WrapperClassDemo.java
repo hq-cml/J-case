@@ -6,7 +6,7 @@ package com.Jcase;
  *
  * 通常用于字符串和数据类型互转的时候很有用
  */
-public class WrapperClassTest {
+public class WrapperClassDemo {
     public static void main(String[] args) {
         WrapperClass wc = new WrapperClass();
         wc.Test();

@@ -6,7 +6,7 @@ package com.Jcase.oop;
  * 泛型方法
  * 泛型接口
  */
-public class GenericTypeTest {
+public class GenericTypeDemo {
     public static void main(String[] args){
         //泛型类实例化
         Point<Integer, Integer> p1 = new Point<Integer, Integer>();

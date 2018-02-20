@@ -3,7 +3,7 @@ package com.Jcase.oop;
 /**
  * 最简单的类定义与实例化例子.
  */
-public class DogTest {
+public class DogDemo {
 
     public static void main(String[] args) {
         //实例化

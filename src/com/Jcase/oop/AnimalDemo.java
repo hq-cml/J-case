@@ -8,7 +8,7 @@ import java.util.Objects;
  * 多态, 动态绑定
  * instance 运算符
  */
-public class AnimalTest {
+public class AnimalDemo {
     public static void main(String[] args) {
         Bird bird = new Bird("haha", 5);
         bird.move();

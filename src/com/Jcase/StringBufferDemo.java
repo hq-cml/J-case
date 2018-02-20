@@ -3,7 +3,7 @@ package com.Jcase;
 /**
  * StringBuffer效率比String高出1000倍
  */
-public class StringBufferTest {
+public class StringBufferDemo {
     public static void main(String[] args) {
         StringBuf sb = new StringBuf();
         sb.Test();

@@ -4,7 +4,7 @@ package com.Jcase;
  * 内部类的使用
  */
 
-public class InnerClassTest {
+public class InnerClassDemo {
 
     public static void main(String[] args) {
         Outer outer = new Outer();

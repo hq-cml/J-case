@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * 类比C的scanf
  */
-public class ScanerTest {
+public class ScanerDemo {
     public static void main(String[] args) {
         Scaner s = new Scaner();
         s.Test();

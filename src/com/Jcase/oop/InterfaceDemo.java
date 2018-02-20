@@ -5,7 +5,7 @@ import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBaseIterators;
 /**
  * 接口应用
  */
-public class InterfaceTest {
+public class InterfaceDemo {
     public static void main(String[] args) {
         //接口引用存放实例变量
         AIntfs a1 = new A();
