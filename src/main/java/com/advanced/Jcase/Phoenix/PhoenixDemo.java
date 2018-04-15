@@ -38,6 +38,23 @@ public class PhoenixDemo {
         System.out.println("time " + timeUsed + "mm");
         // 关闭连接
         rs.close();
+
+        //select
+        sql = "select * from PINGJIA.SPIDER limit 10";
+        time = System.currentTimeMillis();
+        rs = statement.executeQuery(sql);
+        while (rs.next()) {
+            String id = rs.getString("id");
+            String platform = rs.getString("platform");
+            String xinhao = rs.getString("xinhao");
+            String color = rs.getString("color");
+            String date = rs.getString("zhuaqutime");//获取date字段值,数据库中字段为Date类型，这里代码会自动转化为string类型
+            System.out.println("id:"+id+"\tplatform:"+platform+"\txinhao:"+xinhao+"\tdate:"+date+"\tcolor:"+color);
+        }
+        timeUsed = System.currentTimeMillis() - time;
+        System.out.println("time " + timeUsed + "mm");
+
+
         statement.close();
         conn.close();
     }
